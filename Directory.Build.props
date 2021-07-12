@@ -47,7 +47,7 @@
 	<ItemGroup Label="Code Analyzers">
 		<PackageReference Include="AsyncFixer" Version="1.5.1" PrivateAssets="All" />
 		<PackageReference Include="Meziantou.Analyzer" Version="1.0.667" PrivateAssets="All" />
-		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.25.0.33663" PrivateAssets="All" />
+		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.26.0.34506" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup Condition="('$(TargetFramework)' == 'netstandard2.1' OR '$(TargetFramework)' == 'netcoreapp3.1') AND $(MSBuildProjectName) != 'bunit.template' AND $(MSBuildProjectName) != 'bunit'">
